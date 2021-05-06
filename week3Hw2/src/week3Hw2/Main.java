@@ -22,6 +22,12 @@ public class Main {
 		userManager.showUserDetails(student1);
 		studentManager.showStudentDetail(student1);
 
+		Instructor instructor2 = new Instructor(3, "Tarýk", "Tekin", "4865320017", 25, "Male");
+		instructor2.addInstructorDetail("231230", "KOU", "SAP-ABAP");
+		
+		instructorManager.add(instructor2);
+		userManager.showUserDetails(instructor2);
+		instructorManager.showInstructorDetail(instructor2);
 	}
 
 }

@@ -13,7 +13,6 @@ public class Student extends User {
 		setNationalIdentity(nationalIdentity);
 		setAge(age);
 		setGender(gender);
-
 	}
 
 	public void addStudentDetail(String school, String studentNumber, boolean isGraduate) {
