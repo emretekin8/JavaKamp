@@ -11,7 +11,7 @@ import gameSystemDemo.Player.PlayerManager;
 public class Main {
 
 	public static void main(String[] args) {
-//managers
+//managers..
 		PlayerManager playerManager = new PlayerManager();
 		MarketManager gameManager = new GameManager();
 		MarketManager campaignManager = new CampaignManager();
