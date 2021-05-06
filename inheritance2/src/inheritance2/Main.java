@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//deneme
+		
 		CustomerManager customerManager1 = new CustomerManager();
 		customerManager1.add(new EmailLogger());
 		
