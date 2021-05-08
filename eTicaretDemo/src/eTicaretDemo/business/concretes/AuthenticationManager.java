@@ -2,7 +2,6 @@ package eTicaretDemo.business.concretes;
 
 import java.util.List;
 import java.util.regex.Pattern;
-
 import eTicaretDemo.business.abstracts.EmailService;
 import eTicaretDemo.business.abstracts.NameService;
 import eTicaretDemo.business.abstracts.PasswordService;

@@ -32,7 +32,6 @@ public class UserManagerDao implements UserDao {
 		} else {
 			System.out.println("Check your informations again.\n\n");
 		}
-
 	}
 
 	@Override

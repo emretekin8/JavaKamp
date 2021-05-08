@@ -24,14 +24,17 @@ public class Utils {
 
 			}
 			if (!authenticationManager.isValidName(user)) {
-				System.out.println("-->  Invalid name." + " Your name and surname must be at least two letters!!!  <--");
+				System.out
+						.println("-->  Invalid name." + " Your name and surname must be at least two letters!!!  <--");
 
 			}
 			if (!authenticationManager.isValidPassword(user)) {
-				System.out.println("-->  Invalid password." + " Your password must be at least six characters.!!!  <--");
+				System.out
+						.println("-->  Invalid password." + " Your password must be at least six characters.!!!  <--");
 			}
-			if(!authenticationManager.isDuplicateEmail(user)) {
-				System.out.println("-->  There is already an account taken by this email  <--" + "  (" + user.getMail() + ")");
+			if (!authenticationManager.isDuplicateEmail(user)) {
+				System.out.println(
+						"-->  There is already an account taken by this email  <--" + "  (" + user.getMail() + ")");
 			}
 			return false;
 		}

@@ -2,13 +2,13 @@ package eTicaretDemo.entities.concretes;
 
 import eTicaretDemo.entities.abstracts.UserService;
 
-public class User implements UserService{
+public class User implements UserService {
 
 	private String firstName;
 	private String lastName;
 	private String mail;
 	private String password;
-	
+
 	public User(String firstName, String lastName, String mail, String password) {
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -47,7 +47,5 @@ public class User implements UserService{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
-	
+
 }

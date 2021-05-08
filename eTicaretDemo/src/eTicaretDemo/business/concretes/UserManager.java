@@ -6,11 +6,10 @@ import eTicaretDemo.business.abstracts.UserService;
 import eTicaretDemo.dataAccess.abstracts.UserDao;
 import eTicaretDemo.entities.concretes.User;
 
-public class UserManager implements UserService{
+public class UserManager implements UserService {
 
 	private UserDao userDao;
-	
-	
+
 	public UserManager(UserDao userDao) {
 		super();
 		this.userDao = userDao;
@@ -23,8 +22,8 @@ public class UserManager implements UserService{
 
 	@Override
 	public void delete(User user) {
-		//delete from list
-		
+		// delete from list
+
 	}
 
 	@Override

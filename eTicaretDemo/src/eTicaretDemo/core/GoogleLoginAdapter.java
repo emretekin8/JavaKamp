@@ -3,6 +3,7 @@ package eTicaretDemo.core;
 import eTicaretDemo.GoggleLogin.GoogleLoginManager;
 import eTicaretDemo.entities.concretes.User;
 
+
 public class GoogleLoginAdapter implements LoginService {
 
 	@Override
